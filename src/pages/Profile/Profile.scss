@@ -1,0 +1,24 @@
+.info {
+    display: flex;
+    justify-content: flex-start;
+}
+.badge {
+    font-size: 16px;
+}
+.badge.badge-primary {
+    background-color: $primary;
+    color: #000;
+}
+.badge.badge-none {
+    background-color: transparent;
+    color: $primary
+}
+.list-group {
+    margin: 25px 0px 40px;
+}
+
+.list-group .list-group-item {
+    background-color: transparent;
+    border: 1px solid $primary;
+    color: #fff;
+}
